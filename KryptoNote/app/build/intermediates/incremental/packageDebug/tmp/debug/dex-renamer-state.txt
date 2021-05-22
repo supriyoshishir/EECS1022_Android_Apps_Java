@@ -1,0 +1,4 @@
+#Fri Nov 13 17:15:11 EST 2020
+base.0=D\:\\App Development\\AndroidStudioProjects\\KryptoNote\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

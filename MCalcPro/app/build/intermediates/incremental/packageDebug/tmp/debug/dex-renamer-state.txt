@@ -1,0 +1,4 @@
+#Thu Oct 29 21:22:03 EDT 2020
+base.0=D\:\\App Development\\AndroidStudioProjects\\MCalcPro\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

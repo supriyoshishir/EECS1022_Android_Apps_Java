@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Student Name: Supriyo Ghosh
+Student ID#: 215318728
+Lab D2 is done individually
+https://youtu.be/P9beGKv4cyo
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EntryForm">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Principle (in dollars)"
+    android:textStyle="italic"
+    android:id="@+id/principleLabel"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/principleBox"
+    android:textStyle="bold"
+    android:layout_below="@+id/principleLabel"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Amortization (in years)"
+    android:textStyle="italic"
+    android:id="@+id/amortizationLabel"
+    android:layout_below="@+id/principleBox"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/amortizationBox"
+    android:textStyle="bold"
+    android:layout_below="@+id/amortizationLabel"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Interest (as an annual percent)"
+    android:textStyle="italic"
+    android:id="@+id/interestLabel"
+    android:layout_below="@+id/amortizationBox"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/interestBox"
+    android:textStyle="bold"
+    android:layout_below="@+id/interestLabel"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MONTHLY PAYMENT"
+    android:textStyle="bold"
+    android:id="@+id/button"
+    android:layout_below="@+id/interestBox"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:onClick="buttonClicked"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/answer"
+    android:layout_below="@+id/button"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:textColor="@android:color/holo_red_dark"
+    android:textSize="@dimen/abc_text_size_display_1_material"/>
+</RelativeLayout>
